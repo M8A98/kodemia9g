@@ -1,0 +1,12 @@
+h1{
+    background-color: aquamarine;
+}
+
+ul > li{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ol > li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
