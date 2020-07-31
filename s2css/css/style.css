@@ -10,3 +10,7 @@ ol > li {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+img{
+    display: block;
+    margin: auto;
+}
