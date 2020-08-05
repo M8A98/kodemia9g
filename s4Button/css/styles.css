@@ -7,29 +7,29 @@ html{
     font-size: 10px;
 }
 
-header ul{
+header {
     display:flex;
     flex-direction: column;
     list-style-type: none;
 }
 
-header ul input[type="checkbox"]{
+header input[type="checkbox"]{
     display: none;
 }
 
-header ul input[type="checkbox"]:checked ~ li{
+header input[type="checkbox"]:checked ~ a{
     display: none;
 }
-header ul li{
+header a{
     margin-top:1rem;
-    transition: all .2s linear;
+    transition: all .2s ease;
 }
 
-header ul li:hover{
+header a:hover{
     background-color: grey;  
 }
 
-header ul li a{
+header a{
     text-decoration: none;
     font-size: 3rem;
     display: block;
@@ -53,21 +53,21 @@ label hr{
     body{
         background-color: skyblue;
     }
-    header ul{
+    header{
         flex-direction: row;
         justify-content: space-evenly;
     }
-    header ul label{
+    header label{
         display: none;
     }
-    header ul li{
+    header a{
         display: block;
     }
-    header ul li:hover{
+    header a:hover{
         border-bottom: 3px solid black;
         background-color: skyblue;
     }
-    header ul input[type="checkbox"]:checked ~ li{
+    header input[type="checkbox"]:checked ~ a{
         display: inline;
     }
 }
@@ -76,11 +76,11 @@ label hr{
     body{
         background-color: silver;
     }
-    header ul li:hover{
+    header a:hover{
         border-bottom: 3px solid black;
         background-color: silver;
     }
-    header ul input[type="checkbox"]:checked ~ li{
+    header input[type="checkbox"]:checked ~ a{
         display: inline;
     }
 }
