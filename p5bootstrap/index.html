@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -11,118 +12,115 @@
 <body>
     <div class="container">
         <!-- NAV BELOW -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <nav>
+            <ul class="nav">
+                <li>
+                 <img src="images/logo.svg" alt="Company´s logo">
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Active</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Link</a>
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  <a class="nav-link" href="#">Link</a>
                 </li>
               </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form>
-            </div>
-          </nav>
+        </nav>
           <!-- NAV ABOVE -->
         <div class="row">
-            <div class="col col-md-6">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="card-link">Card link</a>
-                      <a href="#" class="card-link">Another link</a>
-                    </div>
-                  </div>
+            <div class="col-12 col-md-6">
+                <div id="firstImage">
+                    <img src="images/illustration-1.svg" alt="">
+                </div>
             </div>
-            <div class="col col-md-6">
-                <img src="https://picsum.photos/200/300" alt="">
+            <div class="col-12 col-md-6" id="firstParagraph">
+                <h2  id="firstText">All your files in one secure location,accesible anywhere.</h2>
+                <p>Fylo stores your most important files in one secure location. Access them whenever you need,share and collaborate with friends,family, and coworkers.</p>
+                <input type="email" placeholder="Enter your email..." class="position-relative">
+                <button class="btn btn-primary position-relative">Get Started</button>
             </div>
         </div>
     </div>
     <div class="container-fluid">
         <div class="container">
             <div class="row">
-                <div class="col col-md-6">
-                    <div class="card" style="width: 18rem;">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="card-link">Card link</a>
-                          <a href="#" class="card-link">Another link</a>
+                <div class="col-12 col-md-6">
+                    <img id="peopleImage" src="images/illustration-2.svg" alt="People working">
+                <div class="col-12 col-md-6" id="belowImage">
+                    <h3 id="productive">Stay productive wherever you are</h3>
+                    <p>Never let your location be an issue when accesing your files. Fylo has you covered for all of your file storage needs.</p>
+                    <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments are required!</p>
+                    <a href="#" id="anchor" class="position-relative">See how Fylo works <img src="images/icon-arrow.svg" alt="Arrow"></a>
+                    <div id="testimonial">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque minima iusto saepe sapiente, dolores sed enim. Hic incidunt fuga facere?</p>
+                        <div id="testimonial-image" class="d-flex">
+                            <img src="images/avatar-testimonial.jpg" alt="Person" class="position-relative">
+                            <div class="align-self-end" id="ps-from-image">
+                                <p class="font-weight-bold">Kyle Burton</p>
+                                <p id="secondP" class="position-relative">Founder & CEO Caloka</p>
+                            </div> 
                         </div>
-                      </div>
-                    <div class="card">
-                        <div class="card-header">
-                          Quote
-                        </div>
-                        <div class="card-body">
-                          <blockquote class="blockquote mb-0">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                            <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                          </blockquote>
-                        </div>
-                      </div>
                     </div>
-                <div class="col col-md-6">
-                    <img src="https://picsum.photos/300/300" alt="">
                 </div>
             </div>
         </div>
-        <div class="container">
+        <!-- WALTER -->
+        <div class="container early-access">
+            <div class="row early">
+                <div class="col-12 col-md-6">
+                    <h4 id="early">Get early access today</h4>
+                    <p>It only takes a minute to sign up and our free starter tier is extremely generous.
+                        If you have any questions, our support team will be happy to help you.
+                    </p>
+                </div>
+                <div class="barras col-12 col-md-6">
+                    <form class="form">
+                      <input class="form-control mr-sm-2" type="search" placeholder="email@example" aria-label="Search">
+                      <button class="boton-started btn btn-outline-success my-2 my-sm-0" type="submit">Get started for free</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container footer">
             <div class="row">
-                <div class="col col-md-6">
-                    <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde maiores suscipit quos ut necessitatibus ullam sapiente officiis repellat minima quisquam et, maxime minus eum, quidem omnis vitae excepturi! Id, iusto.</p>
+                <div class="logo col-12 col-md-3">
+                    <img src="images/logo.svg">
+                    <p>✆ Phone: +1-543-123-4567</p>
+                    <p>✉ example@fylo.com</p>
                 </div>
-                <div class="col col-md-6">
-                    
+                <div class="col-12 col-md-3">
+                    <ul class="lista">
+                        <li>About Us</li>
+                        <li>Jobs</li>
+                        <li>Press</li>
+                        <li>blog</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-3">
+                    <ul class="lista">
+                        <li>Contact Us</li>
+                        <li>Terms</li>
+                        <li>Privacy</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-3">
+                <footer class="redes">
+                    <i class="fa mx-2">&#xf09a;</i>
+                    <i class="fa mx-2">&#xf099;</i>
+                    <i class="fa mx-2">&#xf16d;</i>
+                </footer>
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col col-md-6"></div>
-                <div class="col col-md-6"></div>
-                <div class="col col-md-6"></div>
-            </div>
-        </div>
-    </div>
 
-    
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
         crossorigin="anonymous"></script>
-
-
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
