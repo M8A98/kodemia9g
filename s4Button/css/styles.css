@@ -84,3 +84,14 @@ label hr{
         display: inline;
     }
 }
+
+
+
+/*
+box-shadow:;desplazamiento en x, en y , que tan difuminado, qué tan esparcido(opcional),color,  <- Se divide en espacios y poner una coma cuando vayas a poner otra sombra.
+position:relative;top:100%;
+El elemento que se va a mover tiene absolute y el de referencia relative.
+:focus -> es para inputs.
+outline -> como el borde de los inputs.
+filter:red(50%); blur(10px) qué tantos px la voy a difuminar.
+*/
